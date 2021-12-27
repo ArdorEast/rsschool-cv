@@ -12,7 +12,12 @@
 * CSS
 * Git
 * Figma, Gimp
-  
-  
+
+## Languages: 
+
+* Russian - native speaker 
+* Ukrainian 
+* English - A1 (A2 in process)
+
 
 
