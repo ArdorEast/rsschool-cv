@@ -10,7 +10,6 @@
 
     I am 35 years old. I am a dance and stretching trainer. I worked in various sports clubs for 15 years. I really love to grow and learn new things. Now I've decided to change my profession and learn Full-stack developer.
  
-
 ## Skills:
 
 * HTML
