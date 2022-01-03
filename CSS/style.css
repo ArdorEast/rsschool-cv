@@ -159,3 +159,35 @@ background: url('../Img/mail-send-regular-24.png') 0 0 no-repeat;
 text-decoration: none;
 color: #2b2523;
 }
+.footer {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1.5em 0;
+background: #e9c2a3;
+}
+.github {
+padding: 0.4rem;
+}
+.github img {
+display: inline-block;
+vertical-align: middle;
+height: 22px;
+}
+.rsschool-logo {    
+margin-right: 0.3rem;
+margin-left: 0.8rem;
+border: 3px solid #807064;
+border-radius: 10%;
+padding: 0.4rem;
+padding-bottom: 0.2rem;
+}
+.rsschool-logo img {
+display: inline-block;
+vertical-align: center;
+height: 22px;
+} 
+.year {
+padding: 0.4rem;
+color: #2b2523;
+}
