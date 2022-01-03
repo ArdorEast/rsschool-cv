@@ -1,0 +1,258 @@
+html, body, h1, h2, p, a {
+margin: 0;
+padding: 0;    
+}
+html, body {
+height: 100%;
+width: 100%;
+font-family: Montserrat Semi-Bold, Montserrat, sans-serif;
+}
+img {
+border-style: none;
+}
+ul {
+margin: 0;
+padding: 0;
+}
+.main {  
+min-height: 100%;  
+overflow: hidden;
+}
+.container {    
+margin: 0 auto;
+padding: 0 1em;
+max-width: 63.75rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;    
+}
+.main-header {
+background-color: #e9c2a3;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1.8em 0; 
+position: relative; 
+}
+.header-title {
+font-size: 2.5rem;
+margin-left: 1.7rem;
+margin-right: 19.7rem;
+z-index: 1;
+}
+.header-photo {
+position: absolute;
+right: 1.5rem;
+top: 4rem;
+min-height: 18.125rem;
+background-color: #e9c2a3;
+border: 1rem solid #e9c2a3;
+border-radius: 6%;
+}
+.header-photo img {
+height: 300px;
+border-radius: 6%;
+}
+
+@media (max-width:1020px) {
+    .header-title {
+    font-size: 2.3rem;
+    }
+    .header-photo {
+        top: 7rem;
+    }
+    .content {
+    flex-basis: 30rem;
+    }
+    .contacts {
+    margin-top: 4rem; 
+    }    
+}
+@media (max-width:720px) {
+    .container {
+    max-width: none;
+    }
+    .header-title {
+    font-size: 2rem;
+    margin-left: 0.9rem;
+    margin-right: 15rem;
+    }
+    .header-photo {
+    left: 1.5rem;
+    top: 12rem;
+    min-height: 18.125rem;
+    max-width: 12.75rem;
+    }
+    .main-content {
+    flex-direction: column-reverse;
+    justify-content: flex-start;        
+    gap: 1rem;        
+    background-color: green;
+    }
+    .main-content h2 {
+    margin-bottom: 1.6rem;
+    font-size: 1.8rem;       
+    }
+    .content {
+    flex-basis: auto;    
+    }
+    .contacts {
+    flex: 0 1 5rem;
+    padding-top: 13.5rem;
+    margin-bottom: 2rem;
+    align-self: flex-start;    
+    }
+}
+@media (max-width:430px) {
+    .header-title {
+    font-size: 1.3rem;
+    margin-left: 0.4rem;
+    margin-right: 15rem;
+    }
+    .header-photo {
+    left: 0.2rem;
+    top: 9rem;
+    border: 0.6rem solid #e9c2a3;
+    }
+    .main-content h2 {
+    margin-bottom: 1.1rem;
+    font-size: 0.8rem;       
+    }
+}
+
+.main-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex: 1 1 auto;
+padding: 2.5em 0;
+gap: 1em;
+background-color: #fdfbf9;
+}
+.main-content h2 {
+margin-bottom: 2.25rem;
+font-size: 2.25rem;
+background-color: #e9c2a3;
+padding: 1rem 1rem;
+border-radius: 1rem;
+display: inline-block;
+}
+.main-content p {
+font-size: 1.3rem;
+line-height: 1.7rem;
+padding: 1rem 1rem;
+}
+.main-content li {
+font-size: 1.3rem;
+line-height: 1.5rem;
+margin-left: 2rem;
+padding-bottom: 0.75rem;       
+}
+.content {
+flex-basis: 37rem;
+}
+.aboutme {
+margin-bottom: 2.6rem;
+}
+.skills {
+margin-bottom: 2.6rem;
+}
+.languages {
+margin-bottom: 2.6rem;
+}
+.projects a {
+display: block;
+text-decoration: none;
+color: #2b2523;
+font-size: 1.3rem;
+line-height: 1.7rem;
+padding: 0 0.5rem;
+}
+.contacts {
+margin-top: 7rem;
+}
+.contacts h2 {
+margin-left: 1rem;
+}
+.contacts ul {   
+list-style: none;
+}
+.contacts li {        
+font-size: 1rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+padding-top: 0.3rem;
+position: relative;   
+}
+.contacts li:first-child:before {
+position: absolute;
+content: '';
+width: 28px;
+height: 28px;
+left: -1.7rem;
+top: 0rem;
+background: url('../Img/map-regular-24.png') 0 0 no-repeat;
+}
+.contacts li:nth-child(2):before {
+position: absolute;
+content: '';
+width: 28px;
+height: 28px;
+left: -1.7rem;
+top: 0rem;
+background: url('../Img/github-logo-24.png') 0 0 no-repeat;
+}
+.contacts li:nth-child(3):before {
+position: absolute;
+content: '';
+width: 28px;
+height: 28px;
+left: -1.7rem;
+top: 0rem;
+background: url('../Img/discord-alt-logo-24.png') 0 0 no-repeat;
+}
+.contacts li:nth-child(4):before {
+position: absolute;
+content: '';
+width: 28px;
+height: 28px;
+left: -1.7rem;
+top: 0rem;
+background: url('../Img/mail-send-regular-24.png') 0 0 no-repeat;
+}
+.contacts a {
+text-decoration: none;
+color: #2b2523;
+}
+.footer {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1.5em 0;
+background: #e9c2a3;
+}
+.github {
+padding: 0.4rem;
+}
+.github img {
+display: inline-block;
+vertical-align: middle;
+height: 22px;
+}
+.rsschool-logo {    
+margin-right: 0.3rem;
+margin-left: 0.8rem;
+border: 3px solid #807064;
+border-radius: 10%;
+padding: 0.4rem;
+padding-bottom: 0.2rem;
+}
+.rsschool-logo img {
+display: inline-block;
+vertical-align: center;
+height: 22px;
+} 
+.year {
+padding: 0.4rem;
+color: #2b2523;
+}
