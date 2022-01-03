@@ -53,6 +53,20 @@ border-radius: 6%;
 height: 300px;
 border-radius: 6%;
 }
+@media (max-width:1020px) {
+    .header-title {
+    font-size: 2.3rem;
+    }
+    .header-photo {
+        top: 7rem;
+    }
+    .content {
+    flex-basis: 30rem;
+    }
+    .contacts {
+    margin-top: 4rem; 
+    }    
+}
 
 
 .main-content {
