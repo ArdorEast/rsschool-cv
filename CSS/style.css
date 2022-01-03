@@ -53,6 +53,7 @@ border-radius: 6%;
 height: 300px;
 border-radius: 6%;
 }
+
 @media (max-width:1020px) {
     .header-title {
     font-size: 2.3rem;
@@ -100,6 +101,22 @@ border-radius: 6%;
     padding-top: 13.5rem;
     margin-bottom: 2rem;
     align-self: flex-start;    
+    }
+}
+@media (max-width:430px) {
+    .header-title {
+    font-size: 1.3rem;
+    margin-left: 0.4rem;
+    margin-right: 15rem;
+    }
+    .header-photo {
+    left: 0.2rem;
+    top: 9rem;
+    border: 0.6rem solid #e9c2a3;
+    }
+    .main-content h2 {
+    margin-bottom: 1.1rem;
+    font-size: 0.8rem;       
     }
 }
 
