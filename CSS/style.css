@@ -14,3 +14,42 @@ ul {
     margin: 0;
     padding: 0;
 }
+.main {  
+    min-height: 100%;  
+    overflow: hidden;
+}
+.container {    
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 63.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.main-header {
+    background-color: #e9c2a3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8em 0; 
+    position: relative; 
+}
+.header-title {
+    font-size: 2.5rem;
+    margin-left: 1.7rem;
+    margin-right: 19.7rem;
+    z-index: 1;
+}
+.header-photo {
+    position: absolute;
+    right: 1.5rem;
+    top: 4rem;
+    min-height: 18.125rem;
+    background-color: #e9c2a3;
+    border: 1rem solid #e9c2a3;
+    border-radius: 6%;
+}
+.header-photo img {
+    height: 300px;
+    border-radius: 6%;
+}
